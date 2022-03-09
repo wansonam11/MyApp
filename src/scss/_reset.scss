@@ -1,0 +1,69 @@
+main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+  background-image: url(../img/background2.png);
+  z-index: -1;
+
+  header {
+    width: 90vw;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #gnb {
+      display: flex;
+    }
+  }
+}
+
+h1 {
+  font: bold 34px/1 "orbitron";
+  color: #fff;
+  position: absolute;
+}
+
+* {
+  margin-top: 0px;
+  padding: 0px;
+}
+
+ul,
+li {
+  list-style: none;
+  text-align: center;
+  float: left;
+  margin-top: 40px;
+  margin-left: 500px;
+
+  a {
+    font: bold 3.4vh/1 "arial";
+    color: #fff;
+    margin-left: 50px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and(max-width: 1199px) {
+  ul,
+  li {
+    width: 100%;
+    height: 80px;
+    position: relative;
+
+    a {
+      font: 10px;
+
+      left: 50%;
+    }
+  }
+}
